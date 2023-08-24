@@ -1,0 +1,17 @@
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .dish {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .dish img {
+    max-width: 100%;
+    height: auto;
+  }
+  

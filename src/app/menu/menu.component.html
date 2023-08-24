@@ -1,0 +1,9 @@
+
+
+<div class="menu-container">
+  <div class="dish" *ngFor="let dish of dishes">
+    <img [src]="dish.strMealThumb" alt="{{ dish.strMeal }}" />
+    <p>{{ dish.strMeal }}</p>
+  </div>
+</div>
+
